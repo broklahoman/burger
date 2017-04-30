@@ -8,3 +8,6 @@ id int NOT NULL AUTO_INCREMENT,
 "devoured" BOOLEAN DEFAULT false,
 "date" DATETIME NOT NULL,
 PRIMARY KEY (id));
+
+-- to make the date default be now I changed my date columnt default below
+-- ALTER TABLE burgers MODIFY date timestamp default CURRENT_TIMESTAMP
